@@ -1,4 +1,5 @@
 use test;
+-- source https://www.sqlshack.com/sql-cross-join-with-examples/
 show tables;
  
  create table books(id int primary key , name varchar(50) not null, price int, category varchar(20), authorId varchar(20));
